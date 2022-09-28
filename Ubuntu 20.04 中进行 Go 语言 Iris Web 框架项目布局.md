@@ -1,3 +1,17 @@
+- [Ubuntu 20.04 中进行 Go 语言 Iris Web 框架项目布局](#ubuntu-2004-中进行-go-语言-iris-web-框架项目布局)
+  - [初始化 Go 语言项目目录](#初始化-go-语言项目目录)
+  - [创建 pkg 目录](#创建-pkg-目录)
+    - [pkg 目录下创建 services 目录](#pkg-目录下创建-services-目录)
+    - [pkg 目录下创建 dao 目录](#pkg-目录下创建-dao-目录)
+    - [pkg 目录下创建 entites 目录](#pkg-目录下创建-entites-目录)
+    - [pkg 目录下创建 biz 目录](#pkg-目录下创建-biz-目录)
+    - [pkg 目录下创建 tools 目录](#pkg-目录下创建-tools-目录)
+  - [创建 web 目录](#创建-web-目录)
+    - [web 目录下创建 views 目录](#web-目录下创建-views-目录)
+    - [web 目录下创建 传统 WEB 项目的静态文件目录](#web-目录下创建-传统-web-项目的静态文件目录)
+  - [创建 cmd 目录](#创建-cmd-目录)
+  - [创建 conf 目录](#创建-conf-目录)
+  - [参阅](#参阅)
 # Ubuntu 20.04 中进行 Go 语言 Iris Web 框架项目布局 
 ## 初始化 Go 语言项目目录
 ~~~
@@ -75,9 +89,15 @@ mkdir web/css
 ~~~
 
 ## 创建 cmd 目录
-将最后打包的所有web相关的文件、配置相关文件及可执行文件 main 放入其中，在部署的时候，发布该目录即可
+将最后打包的所有web相关的文件、配置相关文件及可执行文件 main 放入其中，在部署的时候，发布该目录即可。
 ~~~
 mkdir cmd
+~~~
+
+## 创建 conf 目录
+放置配置文件及其相关代码的目录。
+~~~
+mkdir conf
 ~~~
 
 最终的目录树结构如下：
@@ -106,5 +126,5 @@ mkdir cmd
 ## 参阅
 >  <a target="_blank" href="https://github.com/karonluo/documents/blob/main/Ubuntu%2020.04%20%E4%B8%AD%E5%AE%89%E8%A3%85%20go%20%E8%AF%AD%E8%A8%80%E7%8E%AF%E5%A2%83.md">Ubuntu 20.04 Docker 容器环境配置</a>
 > 
-> <a target="_blank" href="https://github.com/karonluo/documents/blob/main/Ubuntu%2020.04%20%E4%B8%AD%E5%AE%89%E8%A3%85%20go%20%E8%AF%AD%E8%A8%80%E7%8E%AF%E5%A2%83.md">Ubuntu 20.04 中安装 go 语言环境</a>
+> <a target="_blank" href="https://github.com/karonluo/documents/blob/main/Ubuntu%2020.04%20%E4%B8%AD%E5%AE%89%E8%A3%85%20go%20%E8%AF%AD%E8%A8%80%E7%8E%AF%E5%A2%83.md">Ubuntu 20.04 中安装 GO 语言环境</a>
 
