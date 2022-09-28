@@ -42,6 +42,12 @@ pkg/entities\
 mkdir pkg/entities
 ~~~
 
+### pkg 目录下创建 biz 目录
+pkg/biz\
+放置业务逻辑实现层相关代码 
+~~~
+mkdir pkg/biz
+~~~
 
 最终的目录树结构如下：
 
