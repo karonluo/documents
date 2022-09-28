@@ -21,7 +21,7 @@ pkg\
 
 ### pkg 目录下创建 services 目录
 pkg/services\
-放置各种类型的接口服务层相关代码 (可以参阅  go-demo 下面的 sample code)
+放置各种类型的接口服务层相关代码
 
 ~~~
 mkdir pkg/services
@@ -29,7 +29,7 @@ mkdir pkg/services
 
 ### pkg 目录下创建 dao 目录
 pkg/dao\
-放置数据访问层相关代码 (可以参阅  go-demo 下面的 sample code)
+放置数据访问层相关代码
 
 ~~~
 mkdir pkg/dao
@@ -38,7 +38,9 @@ mkdir pkg/dao
 ### pkg 目录下创建 entites 目录
 pkg/entities\
 放置实体对象层相关代码 
-
+~~~
+mkdir pkg/entities
+~~~
 
 
 最终的目录树结构如下：
@@ -52,15 +54,15 @@ pkg/entities\
 │  │  ├─ biz
 │  │  ├─ services
 │  │  ├─ entities
-│  │  ├─ tools
+│  │  └─ tools
 │  ├─ web
 │  │  ├─ js
 │  │  ├─ images
 │  │  ├─ css
-│  │  ├─ views
+│  │  └─ views
 │  ├─ go.mod
 │  ├─ go.sum
-└──└── main.go
+└──└─ main.go
 
 ~~~
 
