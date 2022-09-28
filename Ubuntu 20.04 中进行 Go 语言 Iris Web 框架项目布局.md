@@ -1,3 +1,6 @@
+
+# Ubuntu 20.04 中进行 Go 语言 Iris Web 框架项目布局 
+
 - [Ubuntu 20.04 中进行 Go 语言 Iris Web 框架项目布局](#ubuntu-2004-中进行-go-语言-iris-web-框架项目布局)
   - [初始化 Go 语言项目目录](#初始化-go-语言项目目录)
   - [创建 pkg 目录](#创建-pkg-目录)
@@ -12,7 +15,8 @@
   - [创建 cmd 目录](#创建-cmd-目录)
   - [创建 conf 目录](#创建-conf-目录)
   - [参阅](#参阅)
-# Ubuntu 20.04 中进行 Go 语言 Iris Web 框架项目布局 
+
+---
 ## 初始化 Go 语言项目目录
 ~~~
 cd ~
@@ -124,7 +128,6 @@ mkdir conf
 ~~~
 
 ## 参阅
->  <a target="_blank" href="https://github.com/karonluo/documents/blob/main/Ubuntu%2020.04%20%E4%B8%AD%E5%AE%89%E8%A3%85%20go%20%E8%AF%AD%E8%A8%80%E7%8E%AF%E5%A2%83.md">Ubuntu 20.04 Docker 容器环境配置</a>
-> 
+>  <a target="_blank" href="https://github.com/karonluo/documents/blob/main/Ubuntu%2020.04%20%E4%B8%AD%E5%AE%89%E8%A3%85%20go%20%E8%AF%AD%E8%A8%80%E7%8E%AF%E5%A2%83.md">Ubuntu 20.04 Docker 容器环境配置</a>\
 > <a target="_blank" href="https://github.com/karonluo/documents/blob/main/Ubuntu%2020.04%20%E4%B8%AD%E5%AE%89%E8%A3%85%20go%20%E8%AF%AD%E8%A8%80%E7%8E%AF%E5%A2%83.md">Ubuntu 20.04 中安装 GO 语言环境</a>
 
