@@ -1,4 +1,4 @@
-module go-demo
+module go-demo-iris
 
 go 1.19
 
