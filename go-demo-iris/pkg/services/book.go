@@ -3,8 +3,8 @@ package services
 import (
 	"encoding/json"
 	"fmt"
-	"go-demo/pkg/biz"
-	"go-demo/pkg/entities"
+	"go-demo-iris/pkg/biz"
+	"go-demo-iris/pkg/entities"
 
 	"github.com/kataras/iris/v12"
 )

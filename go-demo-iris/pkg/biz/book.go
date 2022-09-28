@@ -2,7 +2,7 @@ package biz
 
 import (
 	"fmt"
-	"go-demo/pkg/entities"
+	"go-demo-iris/pkg/entities"
 
 	"github.com/google/uuid"
 )

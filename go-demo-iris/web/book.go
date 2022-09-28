@@ -2,8 +2,8 @@ package web
 
 import (
 	"fmt"
-	"go-demo/pkg/biz"
-	"go-demo/pkg/services"
+	"go-demo-iris/pkg/biz"
+	"go-demo-iris/pkg/services"
 
 	"github.com/kataras/iris/v12"
 )
