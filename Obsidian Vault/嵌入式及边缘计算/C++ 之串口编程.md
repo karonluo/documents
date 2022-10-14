@@ -8,7 +8,7 @@
 如果要使用现有库的话, <font color=#FFFF00 style='font-weight:bold'>ros-kinetic-serial</font> 库应该是一个不错的选择
 
 ## 串口通讯简单过程
-1. 使用串口名(Linux下面通常为/dev/tty*, windows下通常为COM*)打开串口 
+1. 使用串口名( Linux 下面通常为 /dev/tty*, windows 下通常为 COM* ) 打开串口 
 2. 给打开的串口设定参数， 如 波特率、数据位、停止位、校验位等等 
 3. 向串口发送数据 
 4. 从串口中接收数据
@@ -80,7 +80,7 @@ public:
         BR3500000 = 0010016,
         BR4000000 = 0010017
     };
-	// 校验位
+	// 数据位
     enum DataBits {
         DataBits5,
         DataBits6,
@@ -92,7 +92,7 @@ public:
         StopBits1,
         StopBits2
     };
-
+	// 奇偶校验位
     enum Parity {
         ParityNone,
         ParityEven,
@@ -197,7 +197,7 @@ bool SerialPort::open(const std::string &path, const OpenOptions &options) {
         return false;
     }
 
-    struct termios  tios;
+    struct termios tios;
     termiosOptions(tios, options);
     tcsetattr(_tty_fd, TCSANOW, &tios);
     tcflush(_tty_fd, TCIOFLUSH);
@@ -222,20 +222,20 @@ void SerialPort::termiosOptions(termios &tios, const OpenOptions &options) {
             | (options.xoff ? IXOFF: 0)
             | (options.xany ? IXANY : 0);
 
-    // data bits
+    // 数据位
 
     int databits[] =  {CS5, CS6, CS7, CS8};
     tios.c_cflag &= ~0x30;
     tios.c_cflag |= databits[options.dataBits];
 
-    // stop bits
+    // 停止位
     if(options.stopBits == StopBits2) {
         tios.c_cflag |= CSTOPB;
     } else {
         tios.c_cflag &= ~CSTOPB;
     }
 
-    // parity
+    // 奇偶校验位
     if(options.parity == ParityNone) {
         tios.c_cflag &= ~PARENB;
     } else {
