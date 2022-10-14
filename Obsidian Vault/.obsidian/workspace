@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "164aea9beef22253",
+    "type": "split",
+    "children": [
+      {
+        "id": "39533c822cbf1938",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "嵌入式及边缘计算/C++ 之串口编程.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "81cb89c8658b5c3f",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd3843881b8d49fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7616e5af084c8edb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5106e87577ec0e14",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#2控制元素的大小",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dfb303770f5a97b1",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3d2d5d13ae4e01f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c2888cad043b265",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "510614516d20ae00",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "嵌入式及边缘计算/C++ 之串口编程.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "ff84f30349eae358",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "嵌入式及边缘计算/C++ 之串口编程.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7e9295efa3d23c91",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a8fd4e67af8604b5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "嵌入式及边缘计算/C++ 之串口编程.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 301.5
+  },
+  "active": "39533c822cbf1938",
+  "lastOpenFiles": [
+    "嵌入式及边缘计算/C++ 之串口编程.md",
+    "嵌入式及边缘计算/Go 语言之串口编程.md",
+    "嵌入式及边缘计算/EdgeX Foundry 边缘计算框架.md",
+    "嵌入式及边缘计算/嵌入式及边缘计算.md",
+    "分布式、微服务、大数据相关/Kafka 安装部署.md",
+    "分布式、微服务、大数据相关/Kafka 消息队列服务.md",
+    "定岗/高级运维人员.md",
+    "定岗/岗位角色.md",
+    "定岗/初中级运维人员.md",
+    "定岗/初中级研发人员.md"
+  ]
+}

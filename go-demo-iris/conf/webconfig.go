@@ -5,7 +5,7 @@ import "fmt"
 type WebConfiguration struct {
 	RedisConfiguration RedisConfiguration
 	DBConfiguration    DBConfiguration
-	Port               string
+	WebServerPort               string
 }
 
 func LoadConfiguration(confPath string) WebConfiguration {
