@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4f4a752f73daa400",
+        "id": "d48f817c429f5db4",
         "type": "tabs",
         "children": [
           {
-            "id": "f1675fa06e0b3f2e",
+            "id": "850c81544e8865ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库知识点/Go语言下的 ORM 框架 gorm 的介绍和使用.md",
+                "file": "分布式、微服务、大数据相关/Kafka 安装部署.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库知识点/Go语言下的 ORM 框架 gorm 的介绍和使用.md",
+                "file": "分布式、微服务、大数据相关/Kafka 安装部署.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库知识点/Go语言下的 ORM 框架 gorm 的介绍和使用.md",
+                "file": "分布式、微服务、大数据相关/Kafka 安装部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库知识点/Go语言下的 ORM 框架 gorm 的介绍和使用.md"
+                "file": "分布式、微服务、大数据相关/Kafka 安装部署.md"
               }
             }
           }
@@ -139,17 +139,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "f1675fa06e0b3f2e",
+  "active": "850c81544e8865ad",
   "lastOpenFiles": [
-    "研发语言/Go 语言.md",
-    "研发语言/Go 语言 Iris Web 框架项目布局.md",
-    "运维部署/安装 OpenVINO2021.4 开发环境.md",
-    "数据库知识点/Redis 内存数据库.md",
-    "数据库知识点/NOSQL 数据库.md",
-    "数据库知识点/Go语言下的 ORM 框架 gorm 的介绍和使用.md",
-    "数据库知识点/MYSQL 数据库.md",
-    "Readme.md",
-    "嵌入式及边缘计算/C++ 之串口编程.md",
-    "嵌入式及边缘计算/MQTT 协议介绍.md"
+    "分布式、微服务、大数据相关/Memcached 缓存.md",
+    "分布式、微服务、大数据相关/RocketMQ 消息队列服务.md",
+    "分布式、微服务、大数据相关/ZooKeeper 分布式应用程序协调服务.md",
+    "分布式、微服务、大数据相关/MongoDB 数据库.md",
+    "分布式、微服务、大数据相关/Kafka 安装部署.md",
+    "分布式、微服务、大数据相关/Hadoop 分布式存储.md",
+    "分布式、微服务、大数据相关/Kafka 消息队列服务.md",
+    "分布式、微服务、大数据相关/go-zero 微服务框架.md",
+    "公共架构设计/UML 统一建模语言.md",
+    "UML 统一建模语言相关知识点.md"
   ]
 }

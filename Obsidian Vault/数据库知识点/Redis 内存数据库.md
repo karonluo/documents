@@ -13,4 +13,4 @@ Another good example is to think of Redis as a more complex version of memcached
 ## 安装部署
 
 ## 知识点
-### [[Redis 优化相关]]
+### [[Redis 内存数据库设计优化和规范]]
