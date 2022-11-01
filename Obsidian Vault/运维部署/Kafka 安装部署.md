@@ -38,7 +38,7 @@ vim config/server.properties
 修改如下内容
 ~~~Text
 broker.id=0
-listeners=PLAINTEXT://192.168.10.130:9092
+listeners=PLAINTEXT://127.0.0.1:9092
 log.dirs=kafka-logs
 zookeeper.connect=localhost:2181
 ~~~
@@ -60,8 +60,9 @@ zookeeper.connect=localhost:2181
 
 **例如应该输入以下命令创建主题(topic)**
 ~~~Shell
-./kafka-topics.sh --create --topic test --replication-factor 1 --partitions 1 --bootstrap-server 192.168.10.130:9092
+./kafka-topics.sh --create --topic test --replication-factor 1 --partitions 1 --bootstrap-server 127.0.0.1:9092
 ~~~
+
 **命令参数说明**
 
 + --create： 指定创建topic动作
@@ -87,11 +88,11 @@ zookeeper.connect=localhost:2181
 
 `kafka 2.2` 以下版本:
 ~~~Shell
-./kafka-topics.sh --describe --zookeeper localhost:2181  --topic test
+./kafka-topics.sh --describe --zookeeper localhost:2181 --topic test
 ~~~
 `kafka 2.2` 以上版本:
 ~~~Shell
-./kafka-topics.sh --describe --bootstrap-server 0.0.0.0:9092  --topic test
+./kafka-topics.sh --describe --bootstrap-server 0.0.0.0:9092 --topic test
 ~~~
 
 **命令参数说明**
@@ -112,7 +113,7 @@ zookeeper.connect=localhost:2181
 
 **Topic 删除**
 ~~~Shell
-./kafka-topics.sh --delete --topic test0 --zookeeper 192.168.187.146:2181
+./kafka-topics.sh --delete --topic test --zookeeper localhost:2181
 ~~~
 
 

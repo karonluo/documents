@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "79f9dcd2c53414f0",
+        "id": "a9372600f1235382",
         "type": "tabs",
         "children": [
           {
-            "id": "cab4ee16c12a05f4",
+            "id": "d978eca4becd1933",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "运维部署/Kafka 安装部署.md",
+                "file": "公共架构设计/UML 统一建模语言.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "运维部署/Kafka 安装部署.md",
+                "file": "公共架构设计/UML 统一建模语言.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "运维部署/Kafka 安装部署.md",
+                "file": "公共架构设计/UML 统一建模语言.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "运维部署/Kafka 安装部署.md"
+                "file": "公共架构设计/UML 统一建模语言.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "direction": "horizontal",
     "width": 301.5
   },
-  "active": "cab4ee16c12a05f4",
+  "active": "d978eca4becd1933",
   "lastOpenFiles": [
-    "运维部署/Ubuntu 安装 RPM 安装包.md",
+    "附件/UML 统一建模语言 图像文件/Pasted image 20221101105339.png",
+    "公共架构设计/UML 统一建模语言.md",
+    "附件/UML 统一建模语言 图像文件/Pasted image 20221101104131.png",
+    "附件/UML 统一建模语言 图像文件/Pasted image 20221101103756.png",
+    "Readme.md",
     "运维部署/Kafka 安装部署.md",
+    "运维部署/Ubuntu 安装 RPM 安装包.md",
     "运维部署/Docker 安装部署及基础操作.md",
     "分布式、微服务、大数据相关/Docker 容器.md",
-    "项目产品管理知识点/项目产品管理类.md",
-    "数据库知识点/非关系型数据库.md",
-    "数据库知识点/关系型数据库.md",
-    "数据库知识点/内存数据库.md",
-    "嵌入式及边缘计算/嵌入式及边缘计算.md",
-    "嵌入式及边缘计算/EdgeX Foundry 边缘计算框架.md"
+    "项目产品管理知识点/项目产品管理类.md"
   ]
 }
