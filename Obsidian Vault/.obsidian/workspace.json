@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a9372600f1235382",
+        "id": "96b90f01557f4810",
         "type": "tabs",
         "children": [
           {
-            "id": "d978eca4becd1933",
+            "id": "88e39af8590a22c8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "公共架构设计/UML用户指南(第2版).pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -83,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "公共架构设计/UML用户指南(第2版).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "公共架构设计/UML用户指南(第2版).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "公共架构设计/UML用户指南(第2版).pdf"
-              }
+              "state": {}
             }
           }
         ],
@@ -134,8 +128,9 @@
     "direction": "horizontal",
     "width": 301.5
   },
-  "active": "d978eca4becd1933",
+  "active": "88e39af8590a22c8",
   "lastOpenFiles": [
+    "公共架构设计/UML用户指南(第2版).pdf",
     "公共架构设计/UML 统一建模语言.md",
     "附件/UML 统一建模语言 图像文件/Pasted image 20221101105339.png",
     "附件/UML 统一建模语言 图像文件/Pasted image 20221101104131.png",
@@ -144,7 +139,6 @@
     "运维部署/Kafka 安装部署.md",
     "运维部署/Ubuntu 安装 RPM 安装包.md",
     "运维部署/Docker 安装部署及基础操作.md",
-    "分布式、微服务、大数据相关/Docker 容器.md",
-    "项目产品管理知识点/项目产品管理类.md"
+    "分布式、微服务、大数据相关/Docker 容器.md"
   ]
 }
