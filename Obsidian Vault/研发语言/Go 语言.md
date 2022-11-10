@@ -16,4 +16,4 @@
 
 ### [[go-zero 微服务框架]]
 ### [[Docker 容器]]
-### [[EdgeX Foundry 边缘计算框架]]
+### [[EdgeXFoundry边缘计算框架介绍]]
