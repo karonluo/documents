@@ -1,12 +1,14 @@
-# Python语言订阅和发布MQTT协议数据流
-## 描述
+# Python 语言订阅和发布 MQTT 协议数据流
+#Python语言 #T200 #DEV #边缘计算 #嵌入式 #物联网
 
-^df4d12
+## 描述
 
 本教程文档仅介绍 MQTT 相关消息通过 GO 语言进行订阅和发布
 关于 MQTT 服务安装请参考：
 [MQTT服务安装部署](MQTT服务安装部署)
 
+## MQTT协议介绍
+![[MQTT协议介绍#^2f7a7b]]
 
 ## 组件安装
 ~~~Shell
@@ -169,4 +171,7 @@ go run subscriber.py
 运行结果
 
 ![[Pasted image 20221109185418.png]]
+## 相关知识
+
+[Python语言规范](Python语言规范.md)
 

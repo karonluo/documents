@@ -1,3 +1,4 @@
+#T200 #内存数据库 #Redis #DEV #OPS 
 # Redis 内存数据库
 ---
 ## 概述
@@ -13,4 +14,4 @@ Another good example is to think of Redis as a more complex version of memcached
 ## 安装部署
 
 ## 知识点
-### [[Redis 内存数据库设计优化和规范]]
+### [[Redis内存数据库设计优化和规范]]

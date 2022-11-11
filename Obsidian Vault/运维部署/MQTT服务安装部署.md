@@ -1,4 +1,4 @@
-#边缘计算 #消息队列 #T200 #嵌入式 #分布式计算 #OPS
+#边缘计算 #消息队列 #T200 #嵌入式 #分布式计算 #OPS #物联网 
 # MQTT 服务安装部署
 ## 描述
 **MQTT（Message Queuing Telemetry Transport，消息队列遥测传输协议）**

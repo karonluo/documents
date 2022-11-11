@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4ec763a01e5bb783",
+        "id": "61f6a0330be8b539",
         "type": "tabs",
         "children": [
           {
-            "id": "20771955b0c4ea57",
+            "id": "651c10f006532db3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库知识点/关系型数据库范式设计.md",
+                "file": "嵌入式及边缘计算/Yocto Linux 内核操作系统搭建.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#DEV",
+                "query": "tag:#Yocto",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库知识点/关系型数据库范式设计.md",
+                "file": "嵌入式及边缘计算/Yocto Linux 内核操作系统搭建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库知识点/关系型数据库范式设计.md",
+                "file": "嵌入式及边缘计算/Yocto Linux 内核操作系统搭建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +116,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库知识点/关系型数据库范式设计.md"
+                "file": "嵌入式及边缘计算/Yocto Linux 内核操作系统搭建.md"
               }
             }
           }
@@ -136,17 +137,17 @@
     "direction": "horizontal",
     "width": 301.5
   },
-  "active": "20771955b0c4ea57",
+  "active": "5106e87577ec0e14",
   "lastOpenFiles": [
-    "数据库知识点/关系型数据库基础.md",
-    "数据库知识点/关系型数据库范式设计.md",
-    "数据库知识点/关系型数据库.md",
-    "数据库知识点/非关系型数据库.md",
-    "定岗/初中级研发人员.md",
-    "关系型数据库^概述.md",
-    "运维部署/安装Go语言环境.md",
-    "嵌入式及边缘计算/Go语言订阅和发布MQTT协议数据流.md",
-    "运维部署/MQTT服务安装部署.md",
-    "研发语言/C和C++语言.md"
+    "嵌入式及边缘计算/C++之串口编程.md",
+    "研发语言/C语言编码规范.md",
+    "研发语言/Go 语言 Iris Web 框架项目布局.md",
+    "研发语言/C和C++语言.md",
+    "研发语言/C++语言编码规范.md",
+    "分布式、微服务、大数据相关/JavaSpringBoot 框架学习.md",
+    "嵌入式及边缘计算/Yocto Linux 内核操作系统搭建.md",
+    "附件/JavaSpringBoot 框架 图像文件/Pasted image 20221111164121.png",
+    "嵌入式及边缘计算/嵌入式及边缘计算.md",
+    "附件/JavaSpringBoot 框架 图像文件/Pasted image 20221111161905.png"
   ]
 }
