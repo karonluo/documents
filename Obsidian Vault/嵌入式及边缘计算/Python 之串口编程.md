@@ -12,15 +12,15 @@ ser = serial.Serial('com1', 9600, timeout=1)
 ## Serial 所有参数介绍
 ~~~Python
 ser = serial.Serial(
-port=None,       # 设备端口号，Windows 一般是 COM* Linux 一般是 /dev/tty*
-baudrate=9600,     # 波特率
-bytesize=EIGHTBITS,   # 数据位
-parity=PARITY_NONE,   # 奇偶校验位
-stopbits=STOPBITS_ONE, # 停止位
-timeout=None,      # 超时设置
-xonxoff=0,       # 是否打开 Software 软件流控制
-rtscts=0,        # 是否打开 RTS/CTS (硬件) 流控制
-interCharTimeout=None  # 字符间隔超时时间 None 为关闭 默认是关闭
+	port=None,       # 设备端口号，Windows 一般是 COM* Linux 一般是 /dev/tty*
+	baudrate=9600,     # 波特率
+	bytesize=EIGHTBITS,   # 数据位
+	parity=PARITY_NONE,   # 奇偶校验位
+	stopbits=STOPBITS_ONE, # 停止位
+	timeout=None,      # 超时设置
+	xonxoff=0,       # 是否打开 Software 软件流控制
+	rtscts=0,        # 是否打开 RTS/CTS (硬件) 流控制
+	interCharTimeout=None  # 字符间隔超时时间 None 为关闭 默认是关闭
 )
 ~~~
 ## 接入端口不同平台举例

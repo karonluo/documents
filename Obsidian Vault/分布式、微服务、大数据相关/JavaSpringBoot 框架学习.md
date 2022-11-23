@@ -1,4 +1,4 @@
-#T200 #Java语言 #系统架构设计 #DEV #WEB #WEB后端 #JavaSpringBoot
+#T200 #编程语言/Java语言 #系统架构设计 #DEV #WEB/WEB后端 #Java-SpringBoot
 # Java SpringBoot 框架学习
 ## 1. 描述
 ### 1.1 简介
@@ -99,8 +99,8 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 ### 2.2 创建一个 Spring MVC 的 Spring BootController
 
- + （1）创建SpringBootController 类
-**注意**：新创建的类一定要位于 Application 同级目录或者下级目录，否则 SpringBoot 加
+ + （1）创建 `SpringBootController` 类
+**注意**：新创建的类一定要位于 `Application` 同级目录或者下级目录，否则 SpringBoot 加
 载不到。 
 ~~~Java
 package com.bjpowernode.springboot.web; 
@@ -115,34 +115,34 @@ public class SpringBootController {
 	}
 }
 ~~~
-+ （2）启动Application类中的main方法
-通过在控制台的输出，可以看到启动 SpringBoot 框架，会启动一个内嵌的 tomcat，端
-口号为 8080，上下文根为空 。
++ （2）启动 `Application` 类中的 `main` 方法
+通过在控制台的输出，可以看到启动 `SpringBoot` 框架，会启动一个内嵌的 `tomcat`，端
+口号为 `8080`，上下文根为空 。
 ![[Pasted image 20221111153527.png]]
 + （3）在浏览器中输入 `http://localhost:8080/springBoot/say` 进行访问 
 ![[Pasted image 20221111153511.png]]
 
 
 ### 2.3  分析
-+ （1）spring-boot-starter-parent 是一个 Springboot 的父级依赖，开发 SpringBoot 程序都需
-要继承该父级项目，它用来提供相关的 Maven 默认依赖，使用它之后，常用的 jar
-包依赖可以省去 version 配置 
-+ （2）Spring Boot 提供了一些默认的jar 包的依赖，可查看该父级依赖的 pom 文件 
-+ （3）如果不想使用某个默认的依赖版本，可以通过 pom.xml 文件的属性配置覆盖各个
-依赖项，比如覆盖 Spring 版本： 
++ （1）`spring-boot-starter-parent` 是一个 `SpringBoot` 的父级依赖，开发 `SpringBoot` 程序都需
+要继承该父级项目，它用来提供相关的 Maven 默认依赖，使用它之后，常用的 `jar`
+包依赖可以省去 `version` 配置 
++ （2）`SpringBoot` 提供了一些默认的 `jar` 包的依赖，可查看该父级依赖的 `pom` 文件 
++ （3）如果不想使用某个默认的依赖版本，可以通过 `pom.xml` 文件的属性配置覆盖各个
+依赖项，比如覆盖 `Spring` 版本： 
 ~~~XML
  <properties> 
      <spring-framework.version>5.0.0.RELEASE</ spring-framework.version > 
  </properties>
 ~~~
-+ （4）@SpringBootApplication 注解是 Spring Boot 项目的核心注解，主要作用是开启
-Spring 自动配置，如果在 Application 类上去掉该注解，那么不会启动 SpringBoot程序 
-+ （5）main 方法是一个标准的 Java 程序的 main 方法，是boot项目启动运行的入口
-+ （6）@Controller 及 @ResponseBody 依然是我们之前的 Spring MVC，因为 Spring Boot
-的里面依然是使用我们的 Spring MVC + Spring + MyBatis 等框架 
++ （4）`@SpringBootApplication` 注解是 `SpringBoot` 项目的核心注解，主要作用是开启
+Spring 自动配置，如果在 `Application` 类上去掉该注解，那么不会启动 `SpringBoot` 程序 
++ （5）`main` 方法是一个标准的 Java 程序的 main 方法，是 `boot` 项目启动运行的入口
++ （6）`@Controller` 及 `@ResponseBody` 依然是我们之前的 `SpringMVC`，因为 `SpringBoot`
+的里面依然是使用我们的 `SpringMVC` + `Spring` + `MyBatis` 等框架 
 
 ### 2.4 核心配置文件格式
-+ （1）.properties 文件（默认采用该文件） 
++ （1）`.properties` 文件（默认采用该文件） 
 通过修改 application.properties 配置文件，修改默认 tomcat 端口号及项目上下文件根：
 ~~~Shell
 #设置内嵌 Tomcat 端口号 

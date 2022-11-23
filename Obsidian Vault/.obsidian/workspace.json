@@ -4,16 +4,76 @@
     "type": "split",
     "children": [
       {
-        "id": "61f6a0330be8b539",
+        "id": "fc24db6da55d20f9",
         "type": "tabs",
         "children": [
           {
-            "id": "651c10f006532db3",
+            "id": "e2ab8c994b4ffe7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式及边缘计算/Yocto Linux 内核操作系统搭建.md",
+                "file": "运维部署/Docker 安装部署及基础操作.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22ad15685565e084",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "嵌入式及边缘计算/LFS 11.2 构建全过程-下载软件包.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "11d0dc0ba557bc8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "嵌入式及边缘计算/LFS 11.2 构建全过程-最后的准备工作.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a9ec299827a617bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "嵌入式及边缘计算/LFS 11.2 构建全过程-交叉工具链的构建.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d13bacd82fef8dc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "嵌入式及边缘计算/LFS 11.2 构建全过程-交叉编译临时工具.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "662c1b18978a9d4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "研发语言/Python语言规范.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +108,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Yocto",
+                "query": "Docker",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 393.5
   },
   "right": {
     "id": "3d2d5d13ae4e01f5",
@@ -86,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "嵌入式及边缘计算/Yocto Linux 内核操作系统搭建.md",
+                "file": "运维部署/Docker 安装部署及基础操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "嵌入式及边缘计算/Yocto Linux 内核操作系统搭建.md",
+                "file": "运维部署/Docker 安装部署及基础操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,28 +186,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "嵌入式及边缘计算/Yocto Linux 内核操作系统搭建.md"
+                "file": "运维部署/Docker 安装部署及基础操作.md"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 301.5
   },
-  "active": "5106e87577ec0e14",
+  "active": "e2ab8c994b4ffe7e",
   "lastOpenFiles": [
-    "嵌入式及边缘计算/C++之串口编程.md",
-    "研发语言/C语言编码规范.md",
-    "研发语言/Go 语言 Iris Web 框架项目布局.md",
-    "研发语言/C和C++语言.md",
-    "研发语言/C++语言编码规范.md",
-    "分布式、微服务、大数据相关/JavaSpringBoot 框架学习.md",
-    "嵌入式及边缘计算/Yocto Linux 内核操作系统搭建.md",
-    "附件/JavaSpringBoot 框架 图像文件/Pasted image 20221111164121.png",
-    "嵌入式及边缘计算/嵌入式及边缘计算.md",
-    "附件/JavaSpringBoot 框架 图像文件/Pasted image 20221111161905.png"
+    "定岗/高级运维人员.md",
+    "数据库知识点/Redis内存数据库设计优化和规范.md",
+    "数据库知识点/Redis 内存数据库.md",
+    "定岗/初中级研发人员.md",
+    "运维部署/安装 OpenVINO2021.4 开发环境.md",
+    "运维部署/安装Go语言环境.md",
+    "运维部署/Docker 安装部署及基础操作.md",
+    "运维部署/Kafka安装部署.md",
+    "运维部署/Linux常用SHELL命令大全.md",
+    "运维部署/Linux命令之awk介绍.md"
   ]
 }

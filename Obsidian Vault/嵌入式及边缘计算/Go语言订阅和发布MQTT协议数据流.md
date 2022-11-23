@@ -71,7 +71,6 @@ func Subscribe(){
 ### 完整实例
 #### 发布消息
 文件：publisher.go
-
 ~~~Go
 package main
 

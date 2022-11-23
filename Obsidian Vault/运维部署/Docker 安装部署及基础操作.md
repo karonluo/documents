@@ -1,3 +1,4 @@
+#容器 #Docker #OPS 
 # Docker 安装部署及基本操作
 ## 安装部署
 ### 在 Ubuntu 20.04 中安装 Docker 
@@ -65,3 +66,13 @@ docker load -i <导入的镜像包路径>
 ~~~Shell
 docker load -i ./gomicro1.0.tar
 ~~~
+
+#### 11.收敛数据
+docker system prune 收敛数据，它将大量减少容器和镜像对服务器的空间占用
+~~~Shell
+docker system prune
+~~~
+**注意：该操作比较危险，它将删除：**
+1. 已经停止的容器（镜像不会被删除） 通过 docker ps -a 可以查看到这些状态为 stop 的容器
+2. 所有的没有 tag 的镜像，容器在提交后会产生无 tag 的 none 镜像将被删除，被删除后将无法在提交新的版本镜像前回滚到上一个版本的镜像了。
+**以上情况需熟知，非必要不执行。**

@@ -1,4 +1,5 @@
-#T200 #内存数据库 #Redis #DEV #OPS 
+#T200 #Redis #DEV #OPS #数据库/非关系型数据库/内存数据库/Redis 
+
 # Redis 内存数据库
 ---
 ## 概述

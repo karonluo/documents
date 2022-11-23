@@ -1,4 +1,4 @@
-#T2OO #C和CPP语言 #规范 #DEV #嵌入式 #物联网 #边缘计算
+#T200 #C和CPP语言 #规范 #DEV #嵌入式 #物联网 #边缘计算
 # C 语言编码规范
 
 ## 代码总体原则
@@ -687,9 +687,9 @@ exam = ch; // 编译器不产生告警，此时exam为0xFFFF。
 #define RECTANGLE_AREA(a, b) ((a) * (b))
 ~~~
 
-+ 这是因为：如果定义 #define RECTANGLE_AREA(a, b) a \* b  或 #define RECTANGLE_AREA(a, b) (a * b)则 c/RECTANGLE_AREA(a, b)  将扩展成 c/a * b , c  与 b 本应该是除法运算，结果变成了乘法运算，造成错误。
++ 这是因为：如果定义 `#define` RECTANGLE_AREA(a, b) a \* b  或 `#define` RECTANGLE_AREA(a, b) (a * b)则 c/RECTANGLE_AREA(a, b)  将扩展成 c/a * b , c  与 b 本应该是除法运算，结果变成了乘法运算，造成错误。
 
-+ 如果定义 #define RECTANGLE_AREA(a, b) (a \* b)则 RECTANGLE_AREA(c + d, e + f) 将扩展成： (c + d * e + f), d 与 e 先运算，造成错误。
++ 如果定义 `#define` RECTANGLE_AREA(a, b) (a \* b)则 RECTANGLE_AREA(c + d, e + f) 将扩展成： (c + d * e + f), d 与 e 先运算，造成错误。
 
 ### 将宏所定义的多条表达式放在大括号中
 

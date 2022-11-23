@@ -1,4 +1,4 @@
-#PostgreSQL #数据库 #T200 #DEV #OPS 
+#数据库/关系型数据库/PostgreSQL  #T200 #DEV #OPS 
 # PostgreSQL 安装部署
 ## 描述
 
